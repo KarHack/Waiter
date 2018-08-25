@@ -1,0 +1,18 @@
+public class SampleApp
+    {
+		// Lets Call the API using Waiter.
+		public void Main() {
+			new Waiter()
+				.Http()
+				.Url("YOUR IP ADDRESS")
+				.Endpoint("FINAL ENDPOINT")
+				.Method(Waiter.CallMethod.POST)
+				.AddParam(new ParamData("Key").Put("Value")))
+				// Set up the Callback.
+				.SetOnResponse((bool isSuccess, string response) =>
+				{
+					
+				})
+				.Execute();
+		}
+  }
