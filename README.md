@@ -25,3 +25,6 @@ Implementation of the Library.
 We have a WaiterManager to allow you to interact with the current running calls.
 
 We are also planning to build features like Guaranteed API Calling by linking with an embedded database like SQLite.
+
+# Installation
+C# - Using Nuget https://www.nuget.org/packages/36thElement.Waiter/0.1.0
