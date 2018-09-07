@@ -2,7 +2,11 @@
 A simple but guaranteed API Call function with callbacks for ease of programming.
 It allows for Synchronous & A-Synchronous Calls.
 
-Implementation of the Library.
+# Installation
+C# - https://www.nuget.org/packages/36e.Waiter/
+>     Install-Package 36e.Waiter -Version 0.1.4 - Nuget
+
+# Implementation
 
 >        new Waiter()
 >               .Http() or .Https()
@@ -25,7 +29,3 @@ Implementation of the Library.
 We have a WaiterManager to allow you to interact with the current running calls.
 
 We are also planning to build features like Guaranteed API Calling by linking with an embedded database like SQLite.
-
-# Installation
-C# - https://www.nuget.org/packages/36e.Waiter/
->     Install-Package 36e.Waiter -Version 0.1.4 - Nuget
